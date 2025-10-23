@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=new Swiper(".product-slider",{nextButton:".swiper-button-next",prevButton:".swiper-button-prev",spaceBetween:0}),t=new Swiper(".product-thumbs",{spaceBetween:20,slidesPerView:4,centeredSlides:!0,touchRatio:.2,slideToClickedSlide:!0,direction:"vertical"});(e.params.control=t).params.control=e});

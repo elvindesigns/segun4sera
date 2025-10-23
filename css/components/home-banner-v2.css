@@ -1,0 +1,317 @@
+.home_v2_banner--wrapper {
+    background: var(--primary-color);
+    padding: 0px;
+    margin-top: 60px;
+}
+.home_v2_banner--wrapper .outer_line_v2--wrapper {
+    height: 100%;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 1;
+}
+.outer_line_v2--wrapper-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    max-width: 45rem;
+    width: 100%;
+    z-index: 1;
+}
+.home_v2_banner--wrapper .left_banner_col {
+    position: relative;
+    z-index: 1;
+}
+.banner_v2_img--wrapper {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #cdd0d3;
+}
+.banner_v2_img--wrapper img {
+    width: 100%;
+}
+.best_leader--wrapper .election_2020--wrapper {
+    justify-content: flex-start;
+}
+.vote_best_leader--wrapper .the_best {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.025em;
+    text-transform: capitalize;
+    color: var(--white);
+    margin-bottom: 0;
+}
+.vote_best_leader--wrapper .leader {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: -0.025em;
+    text-transform: capitalize;
+    color: var(--quaternary-color);
+    margin-bottom: 0;
+}
+.the_best_leader_subtitle {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: var(--quaternary-color);
+    padding-top: 3px;
+    margin-bottom: 0;
+}
+.vote_best_leader--wrapper .vote_for_best--wrapper {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    color: var(--quaternary-color);
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.vote_for_best--wrapper span {
+    color: var(--white);
+}
+.vote_best_leader--wrapper p {
+    font-family: var(--open-sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: var(--white);
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+.vote_best_leader--wrapper p br {
+    display: none;
+}
+.vote_best_leader--wrapper .join_now {
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--quaternary-color);
+    text-decoration: none;
+    display: block;
+    max-width: 175px;
+    width: 100%;
+    padding: 12px 29px;
+    transition: all 0.5s ease;
+    position: relative;
+    z-index: 100;
+    margin-bottom: 30px;
+}
+.vote_best_leader--wrapper .join_now:hover {
+    background: #354569;
+}
+.home_v2_banner--wrapper .outer_line_v2--wrapper::after {
+    display: none;
+}
+@media (min-width: 420px) {
+    .vote_best_leader--wrapper .the_best {
+        font-size: 50px;
+        line-height: 1.3;
+    }
+    .vote_best_leader--wrapper .leader {
+        font-size: 75px;
+        line-height: 0.9;
+    }
+    .vote_best_leader--wrapper .vote_for_best--wrapper {
+        font-size: 25px;
+    }
+    .vote_best_leader--wrapper p br {
+        display: block;
+    }
+    .the_best_leader_subtitle {
+        font-size: 18px;
+    }
+}
+@media (min-width: 421px) and (max-width: 575px) {
+    .home_v2_banner--wrapper {
+        overflow: hidden;
+    }
+}
+@media (max-width: 767px) {
+    .home_v2_banner--wrapper .outer_line_v2--wrapper {
+        border: none;
+    }
+}
+@media (min-width: 768px) {
+    .home_v2_banner--wrapper {
+        background: var(--white);
+        padding: 0px;
+        position: relative;
+        overflow: hidden;
+    }
+    .home_v2_banner--wrapper::after {
+        content: "";
+        position: absolute;
+        background: url("../../images/banner-v2-vector.svg") no-repeat 0 0;
+        background-size: 100%;
+        max-width: 1284px;
+        width: 100%;
+        height: 988px;
+        top: -7rem;
+        right: -5rem;
+        z-index: 0;
+    }
+    .home_v2_banner--wrapper .right_banner_col {
+        padding-top: 0rem;
+    }
+    .vote_best_leader--wrapper p br {
+        display: none;
+    }
+    .best_leader--wrapper {
+        padding: 30px 20px;
+        margin-top: -7rem;
+    }
+    .home_v2_banner--wrapper .container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .home_v2_banner--wrapper .outer_line_v2--wrapper {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        z-index: 1;
+    }
+    .home_v2_banner--wrapper .right_banner_col {
+        padding-top: 15rem;
+        z-index: 1;
+    }
+    .outer_line_v2--wrapper-layer:before {
+        content: "";
+        background-color: #dd6300;
+        position: absolute;
+        width: 270px;
+        height: calc(100% + 110px);
+        right: 0;
+        top: -110px;
+        z-index: 0;
+    }
+    .banner_v2_img--wrapper {
+        background-color: transparent;
+    }
+    .vote_best_leader--wrapper .join_now {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .vote_best_leader--wrapper .the_best {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .vote_best_leader--wrapper .leader {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .vote_best_leader--wrapper .vote_for_best--wrapper {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media (min-width: 992px) {
+    .outer_line_v2--wrapper-layer:before {
+        width: 370px;
+    }
+    .home_v2_banner--wrapper {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .vote_best_leader--wrapper .the_best {
+        font-size: 50px;
+    }
+    .vote_best_leader--wrapper .vote_for_best--wrapper {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+@media (min-width: 1200px) {
+    .best_leader--wrapper {
+        padding: 300px 30px 150px;
+    }
+    .vote_best_leader--wrapper .vote_for_best--wrapper {
+        padding-top: 75px;
+    }
+    .vote_best_leader--wrapper p {
+        padding-bottom: 40px;
+    }
+    .banner_v2_img--wrapper img {
+        width: calc(100% - 85px);
+    }
+    .best_leader--wrapper {
+        padding: 120px 20px 70px;
+        margin-top: -7rem;
+    }
+    .outer_line_v2--wrapper-layer:before {
+        width: 445px;
+    }
+    .vote_best_leader--wrapper .the_best {
+        font-size: 60px;
+    }
+    .vote_best_leader--wrapper .leader {
+        font-size: 95px;
+    }
+}
+@media (min-width: 1680px) {
+    .home_v2_banner--wrapper::after {
+        max-width: 1920px;
+        right: -3rem;
+    }
+    .outer_line_v2--wrapper-layer:before {
+        width: 446px;
+    }
+    .best_leader--wrapper {
+        padding: 300px 30px 150px;
+        margin-top: -7rem;
+    }
+}
+@media (min-width: 1780px) {
+    .home_v2_banner--wrapper::after {
+        top: -8.78rem;
+    }
+}
+@media (min-width: 1900px) {
+    .vote_best_leader--wrapper .the_best {
+        font-size: 70px;
+    }
+    .vote_best_leader--wrapper .leader {
+        font-size: 110px;
+    }
+    .vote_best_leader--wrapper .vote_for_best--wrapper {
+        font-size: 35px;
+    }
+    .vote_best_leader--wrapper .join_now {
+        font-size: 16px;
+    }
+}

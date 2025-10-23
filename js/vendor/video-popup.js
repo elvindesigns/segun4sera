@@ -1,0 +1,1 @@
+"use strict";jQuery(document).ready(function(e){e(".video_btn").magnificPopup({type:"iframe"}),e(".play_live_btn").magnificPopup({type:"iframe"})});

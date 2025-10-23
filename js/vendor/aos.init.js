@@ -1,0 +1,1 @@
+$(document).ready(function(){AOS.init({duration:1e3,once:!0,disable:"mobile",offset:200})});

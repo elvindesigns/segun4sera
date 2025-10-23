@@ -1,0 +1,1 @@
+$(document).ready(function(e){e("form.contact-form").validate({rules:{name:"required",email:{required:!0,email:!0},message:{required:!0}},messages:{},submitHandler:function(e){e.submit()}})});

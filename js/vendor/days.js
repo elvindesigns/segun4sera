@@ -1,0 +1,1 @@
+"use strict";jQuery(document).ready(function(s){s("#getting-started").countdown("2024/10/01",function(n){s(this).html(n.strftime("<span><strong>%D</strong> <p>days</p></span> <span><strong>%H</strong> <p>hours</p></span> <span><strong>%M</strong> <p>minute</p></span> <span><strong>%S</strong> <p>seconds</p></span>"))})});
