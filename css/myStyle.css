@@ -1,0 +1,33 @@
+.list_details--wrapper p{
+font-size: 0.80em;
+}
+.vote_list{
+        padding: 16px 0px !important;
+}
+
+@media (max-width: 500px) {
+  #nav-container {
+    background-color: #fff;
+  }
+  #nav-container .navbar{
+    justify-content: center;
+  }
+  .banner_v2_img--wrapper img {
+    width: 100%;
+    height: 476px;
+    object-fit: cover;
+    object-position: 30% 0%;
+    }
+    .party_story--wrapper .bottom-section .section-title {
+        color: white;
+    }
+    #logoimage{
+        opacity:1 !important
+    }
+    #reasonToVote{
+        scale:1.8
+    }
+    .title_two{
+        font-size: 30px !important;
+    }
+}
